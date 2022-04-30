@@ -1,5 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:country_code_picker/country_code.dart';
+// import 'package:country_code_picker/country_code.dart';
 import '/ui/create_user/create_user_screen.dart';
 import 'package:image_picker/image_picker.dart';
 import '/ui/otp_verify/otp_verify_screen.dart';
@@ -98,11 +98,11 @@ class MobileViewModel extends BaseViewModel {
   }
 
   // Select County Code
-  void onCountryChange(CountryCode countryCode) {
-    // this.countryCode = countryCode.toString();
-    // notifyListeners();
-    // print("New Country selected: " + countryCode.toString());
-  }
+  // void onCountryChange(CountryCode countryCode) {
+  //   // this.countryCode = countryCode.toString();
+  //   // notifyListeners();
+  //   // print("New Country selected: " + countryCode.toString());
+  // }
 
   // Send OTP
   sendOtp(BuildContext context) async {
